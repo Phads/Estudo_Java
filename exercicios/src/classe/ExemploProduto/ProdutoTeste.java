@@ -1,4 +1,4 @@
-package classe;
+package classe.ExemploProduto;
 
 public class ProdutoTeste {
     public static void main(String[] args) {

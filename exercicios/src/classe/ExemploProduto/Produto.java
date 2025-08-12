@@ -1,4 +1,4 @@
-package classe;
+package classe.ExemploProduto;
 // aplicar desconto para todos os produtos
 // desconto padrão 25%
 public class Produto {

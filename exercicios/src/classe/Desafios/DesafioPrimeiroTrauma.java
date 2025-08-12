@@ -1,4 +1,4 @@
-package classe;
+package classe.Desafios;
 
 public class DesafioPrimeiroTrauma {
     int a = 3; // não pode mexer

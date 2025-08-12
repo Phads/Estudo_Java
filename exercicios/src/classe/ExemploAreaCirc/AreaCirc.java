@@ -1,4 +1,4 @@
-package classe;
+package classe.ExemploAreaCirc;
 
 public class AreaCirc {
     static double pi = 3.14;

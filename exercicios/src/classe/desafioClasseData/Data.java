@@ -6,18 +6,24 @@ public class Data {
     int ano;
 
     Data () {
-        dia = 01;
-        mes = "Janeiro";
-        ano = 1975;
+        //dia = 01;
+        //mes = "Janeiro";
+        //ano = 1975;
+        this(1, "Janeiro", 1970);
     }
 
-    Data (int diaInicial, String mesInicial, int anoIncial) {
-        dia = diaInicial;
-        mes = mesInicial;
-        ano = anoIncial;
+    Data (int dia, String mes, int ano) {
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
    String obterDataFormatada () {
-         return String.format(" %d / %s / %d ", dia, mes, ano);
+        final String formato = " %d / %s / %d ";
+        return String.format(formato, dia, mes, ano);
+    }
+
+    void imprimirDataFormatada() {
+        System.out.println(obterDataFormatada());
     }
 }

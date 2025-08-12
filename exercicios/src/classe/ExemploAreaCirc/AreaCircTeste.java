@@ -1,4 +1,4 @@
-package classe;
+package classe.ExemploAreaCirc;
 
 public class AreaCircTeste {
     public static void main(String[] args) {
