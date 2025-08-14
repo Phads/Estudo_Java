@@ -1,7 +1,5 @@
 package ExContaBancaria;
 
-import java.util.Scanner;
-
 public class ContaBancariaOp {
     public static void main(String[] args) {
         ContaBancaria Conta1 = new ContaBancaria("1234", "Pedro Alves", 1200.87);
