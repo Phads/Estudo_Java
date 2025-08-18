@@ -19,7 +19,7 @@ public class Ex082 {
 
         for (int i = 0; i < vetor.length; i++) {
 
-            System.out.printf("Digite sua nota: ");
+            System.out.print("Digite sua nota: ");
             int notas = leitor.nextInt();
             vetor[i] = notas;
 
@@ -29,9 +29,11 @@ public class Ex082 {
 
             if (vetor[i] >= 7) contador++;
 
-            if (maiorNota < vetor[i])
+            if (maiorNota < vetor[i]) {
+
                 maiorNota = vetor[i];
                 posicao = i;
+            }
 
         }
 
